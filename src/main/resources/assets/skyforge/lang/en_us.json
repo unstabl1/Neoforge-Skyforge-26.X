@@ -1,13 +1,12 @@
 {
-  "itemGroup.skyforge": "Example Mod Tab",
-  "block.skyforge.example_block": "Example Block",
-  "item.skyforge.example_item": "Example Item",
 
-  "skyforge.configuration.title": "Skyforge Configs",
-  "skyforge.configuration.section.skyforge.common.toml": "Skyforge Configs",
-  "skyforge.configuration.section.skyforge.common.toml.title": "Skyforge Configs",
-  "skyforge.configuration.items": "Item List",
-  "skyforge.configuration.logDirtBlock": "Log Dirt Block",
-  "skyforge.configuration.magicNumberIntroduction": "Magic Number Text",
-  "skyforge.configuration.magicNumber": "Magic Number"
+  "item.skyforge.enchanted_diamond": "Enchanted Diamond",
+  "item.skyforge.enchanted_redstone": "Enchanted Redstone",
+  "item.skyforge.grand_experience_bottle": "Grand Experience Bottle",
+  "item.skyforge.titanic_experience_bottle": "Titanic Experience Bottle",
+  "item.skyforge.colossal_experience_bottle": "Colossal Experience Bottle",
+
+  "creativetab.skyforce.skyblock_resources": "Skyblock Resources",
+  "creativetab.skyforce.skyblock_consumables": "Skyblock Consumables"
+
 }

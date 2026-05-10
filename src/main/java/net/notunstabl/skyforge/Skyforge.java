@@ -1,5 +1,7 @@
 package net.notunstabl.skyforge;
 
+import net.notunstabl.skyforge.creativetab.ModCreativeModeTabs;
+import net.notunstabl.skyforge.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -42,6 +44,8 @@ public class Skyforge {
         modEventBus.addListener(this::commonSetup);
 
 
+        ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
